@@ -1,17 +1,20 @@
 # SQL_Music_Store_Analysis
-
+***
 Music Store Database Description
-
-Database Management System (DBMS): 
+***
+**Database Management System (DBMS):** 
 PostgreSQL is used as the relational database management system (RDBMS) for storing and managing the music store data.
 
-Database Tool:
+**Database Tool:**
 PgAdmin4 serves as the graphical user interface (GUI) tool for interacting with the PostgreSQL database. It facilitates database management, query execution, and visualization.
 
-Schema:
+**Schema:**
 The Music Store Database schema organizes the data into structured tables, defining the relationships between entities within the online music store.
 
-Key Tables:
+
+![MusicDatabaseSchema](https://github.com/Ganeshkarwa/SQL_Music_Store_Analysis/assets/140792447/87ca02f9-144b-4780-8643-a995a6ac87a1)
+
+**Key Tables:**
 invoice: Contains information about customer purchases, including total amounts and timestamps.
 invoice_line: Stores details about each individual track purchased in an invoice.
 track: Represents individual music tracks available in the store, with attributes such as name, genre, and album association.
